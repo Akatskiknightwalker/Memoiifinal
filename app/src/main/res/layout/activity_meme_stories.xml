@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.AppCompat.NoActionBar"
+    android:background="@drawable/gradent_lists"
+    tools:context=".MemeStories"
+    android:padding="8dp"
+    >
+
+    <ImageView
+        android:id="@+id/storyimage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        />
+    <jp.shts.android.storiesprogressview.StoriesProgressView
+        android:id="@+id/stories"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+
+        >
+
+
+    </jp.shts.android.storiesprogressview.StoriesProgressView>
+
+<LinearLayout
+
+    android:id="@+id/storynavigation"
+    android:orientation="horizontal"
+    android:weightSum="4"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true">
+    <Button
+        android:id="@+id/load_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Load"
+        />
+    <Button
+        android:id="@+id/pause_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Pause"
+        />
+    <Button
+        android:id="@+id/resume_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Resume"
+        />
+    <Button
+        android:id="@+id/reverse_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Reverse"
+        />
+
+
+
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>

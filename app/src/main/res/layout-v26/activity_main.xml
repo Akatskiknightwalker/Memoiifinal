@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradent_lists"
+    android:id="@+id/homescreenLinearLayout">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/memnoiipngfinal"
+        android:contentDescription="@string/todo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:keepScreenOn="true">
+
+
+            <EditText
+                android:id="@+id/editUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:autofillHints=""
+                android:drawableStart="@drawable/ic_point"
+                android:ems="10"
+                android:hint="@string/please_enter_your_username"
+                android:inputType="textPersonName"
+                android:keepScreenOn="true"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/editEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:autofillHints=""
+                android:cursorVisible="true"
+                android:drawableLeft="@drawable/ic_email"
+                android:ems="10"
+                android:hint="@string/please_enter_your_email"
+                android:inputType="textPersonName"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true">
+
+            <EditText
+                android:id="@+id/editPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:drawableLeft="@drawable/ic_lock"
+                android:ems="10"
+                android:hint="Enter your password here"
+                android:inputType="textPersonName"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:password="true" />
+        </android.support.design.widget.TextInputLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnSignUP"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/sign_up" />
+
+            <Button
+                android:id="@+id/btnSignIn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/sign_in" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/phone_LinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Or"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:foregroundGravity="center_vertical|center|center_horizontal"
+                android:gravity="center"
+                android:text="@string/or"
+                android:textSize="24sp" />
+
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/phoneEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:autofillHints=""
+                        android:drawableStart="@drawable/ic_phone"
+                        android:ems="10"
+                        android:hint="@string/enter_phone_no"
+                        android:inputType="textPersonName"
+                        android:keepScreenOn="true"
+                        android:paddingLeft="4dp"
+                        android:paddingRight="4dp"
+                        android:phoneNumber="true" />
+                </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/sendPhoneNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="@string/go"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/codeEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:autofillHints=""
+                    android:drawableStart="@drawable/ic_vpn_key_black_24dp"
+                    android:ems="10"
+                    android:hint="@string/enter_code"
+                    android:inputType="textPersonName"
+                    android:keepScreenOn="true"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/btnsendCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/send_code" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

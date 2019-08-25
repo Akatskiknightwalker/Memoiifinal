@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradent_lists"
+    tools:context=".ViewPostsActivity">
+
+    <TextView
+        android:id="@+id/text_Description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="*Caption*"
+        android:textSize="18sp"
+        />
+
+
+    <ImageView
+        android:id="@+id/postsImageView"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/memnoiipngfinal" />
+
+    <Button
+        android:id="@+id/btn_MemeSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:backgroundTint="@color/colorAccent"
+        android:text="Browse memes"
+        android:textColor="@color/common_google_signin_btn_text_dark_default" />
+    <TextView
+        android:id="@+id/txtdescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="View the users who send you posts"
+        android:textSize="10sp"
+         />
+
+
+
+    <ListView
+        android:id="@+id/postsListView"
+        android:layout_width="430dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="64dp">
+
+    </ListView>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Memoii</string>
+    <string name="send_to">sharewith</string>
+    <string name="send_memes">Send Memes</string>
+    <string name="type_caption">Type caption</string>
+    <string name="todo">TODO</string>
+    <string name="go">Go</string>
+    <string name="send_code">Send Code</string>
+    <string name="enter_code">Enter code</string>
+    <string name="please_enter_your_username">Please Enter Your Username</string>
+    <string name="sign_in">Sign In</string>
+    <string name="or">OR</string>
+    <string name="sign_up">Sign up</string>
+    <string name="enter_phone_no">Enter Phone No</string>
+    <string name="please_enter_your_email">Please Enter Your Email</string>
+</resources>
+

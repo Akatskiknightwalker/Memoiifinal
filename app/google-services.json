@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "87355063731",
+    "firebase_url": "https://memoii.firebaseio.com",
+    "project_id": "memoii",
+    "storage_bucket": "memoii.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87355063731:android:a2a6a2c0cb4dc5f4",
+        "android_client_info": {
+          "package_name": "com.akatski.memoii"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87355063731-73us22ih12i4cisjccn2k55nva7eijq6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.akatski.memoii",
+            "certificate_hash": "477359034649cedaf06c50483e7cfc4588c4e173"
+          }
+        },
+        {
+          "client_id": "87355063731-d3o61mnvmnrmtf6ju6ffnhba39a1lf5f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6GUKzKpgf0EtezE9RSEfXlJqux4IChKI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "87355063731-d3o61mnvmnrmtf6ju6ffnhba39a1lf5f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/logouthelper"
+        android:icon="@drawable/ic_logout"
+        android:title="logout"
+        app:showAsAction="always"
+        />
+    <item android:id="@+id/viewPostsItem"
+        android:title="ViewPosts"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/browseMemes"
+        android:title="Browse Memes"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/UMW"
+    android:title="Ultimate Meme Works"
+    app:showAsAction="never"
+    />
+    <item android:id="@+id/meme_Stories"
+        android:title="Meme Stories"
+        app:showAsAction="never"
+        />
+
+</menu>
